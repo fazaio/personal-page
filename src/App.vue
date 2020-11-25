@@ -56,11 +56,21 @@
       </div>
       <div class="card-dark">
         <div style="text-align: center;">
-         <font-awesome-icon class="icons" :icon="['fab', 'instagram']" />
-         <font-awesome-icon class="icons" :icon="['fab', 'twitter']" />
-         <font-awesome-icon class="icons" :icon="['fab', 'facebook']" />
-         <font-awesome-icon class="icons" :icon="['fab', 'github']" />
-         <font-awesome-icon class="icons" :icon="['fab', 'wordpress']" />
+         <a href="https://instagram.com/faza.au">
+          <font-awesome-icon class="icons" :icon="['fab', 'instagram']" />
+         </a>
+         <a href="https://twitter.com/faza_aul">
+          <font-awesome-icon class="icons" :icon="['fab', 'twitter']" />
+         </a>
+         <a href="https://fazaio.wordpress.com">
+          <font-awesome-icon class="icons c" :icon="['fab', 'wordpress']" />
+         </a>
+         <a href="https://facebook.com/faza.aul">
+          <font-awesome-icon class="icons" :icon="['fab', 'facebook']" />
+         </a>
+         <a href="https://github.com/fazaio">
+          <font-awesome-icon class="icons cy" :icon="['fab', 'github']" />
+         </a>
         </div>
       </div>
       <div class="foot">
@@ -113,6 +123,7 @@ export default {
 .icons {
   font-size: 28px;
   margin: 5px;
+  color: white;
 }
 .page {
   margin: 0px 0px 0px 0px;
